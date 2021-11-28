@@ -4,19 +4,19 @@
     <ProjectType>Local</ProjectType>
     <ProductVersion>7.10.3077</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{904CD00C-4CDF-4913-A330-9F60A9EAAD41}</ProjectGuid>
+    <ProjectGuid>{6BD42E46-0A05-41B3-A82D-45D44D1F9A93}</ProjectGuid>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ApplicationIcon />
     <AssemblyKeyContainerName />
-    <AssemblyName>Plugin4</AssemblyName>
+    <AssemblyName>PluginSupanut</AssemblyName>
     <AssemblyOriginatorKeyFile />
     <DefaultClientScript>JScript</DefaultClientScript>
     <DefaultHTMLPageLayout>Grid</DefaultHTMLPageLayout>
     <DefaultTargetSchema>IE50</DefaultTargetSchema>
     <DelaySign>false</DelaySign>
     <OutputType>Library</OutputType>
-    <RootNamespace>Plugin4</RootNamespace>
+    <RootNamespace>PluginSupanut</RootNamespace>
     <RunPostBuildEvent>OnBuildSuccess</RunPostBuildEvent>
     <StartupObject />
     <FileUpgradeFlags>
@@ -24,7 +24,7 @@
     <UpgradeBackupLocation>
     </UpgradeBackupLocation>
     <OldToolsVersion>0.0</OldToolsVersion>
-    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <TargetFrameworkProfile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
@@ -98,6 +98,9 @@
     </Compile>
     <Compile Include="ctlMain.cs">
       <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="PluginSupanut.cs">
+      <SubType>Code</SubType>
     </Compile>
     <EmbeddedResource Include="ctlMain.resx">
       <DependentUpon>ctlMain.cs</DependentUpon>
